@@ -12,3 +12,177 @@
 .opt-container input {
   @apply !mr-0 flex-1 py-5 outline-none;
 }
+
+/* Number Page */
+.number-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.number-page-logo {
+  width: 264px;
+  height: 50px;
+  flex-shrink: 0;
+  margin-bottom: 111px;
+  /* margin-top: 156px; */
+}
+
+.number-page-heading {
+  color: #000;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.number-back-sign-in-line {
+  color: #666;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 68px;
+}
+
+.number-page-otp-note {
+  color: #999;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 31px;
+  margin-bottom: 103px;
+}
+
+.number-page-sign-in-button {
+  width: 224px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #f7b348;
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  outline: none;
+}
+
+/* Verify OTP */
+.verify-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.verify-otp-check-image {
+  width: 131.518px;
+  height: 138.015px;
+  flex-shrink: 0;
+  margin-bottom: 50.99px;
+}
+
+.verify-mobile-line {
+  color: #333;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 41px;
+}
+.verify-mobile-otp-sent-line {
+  color: #666;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.mobile-number-verify {
+  color: #333;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.verify-change-phone-number {
+  color: #f7b348;
+  font-family: Work Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: underline;
+  text-decoration-color: #f7b348;
+  margin-top: 0px;
+  margin-bottom: 84px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.verify-otp-not-received {
+  display: flex;
+  align-items: center;
+  margin-top: 85px;
+  margin-bottom: 28px;
+}
+
+.verify-not-received {
+  color: #999;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.verify-otp-resend {
+  color: #f7b348;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 16px;
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.verify-button {
+  width: 224px;
+  height: 36px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #f7b348;
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  outline: none;
+}

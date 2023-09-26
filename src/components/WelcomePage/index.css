@@ -1,0 +1,75 @@
+.welcome-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.welcome-page-image {
+  width: 305px;
+  height: 308px;
+  flex-shrink: 0;
+  margin-bottom: 47px;
+}
+
+.welcome-heading {
+  color: #333;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 26px;
+}
+
+.welcome-page-line {
+  color: #999;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 97px;
+}
+
+.welcome-page-line-span {
+  color: #666;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.welcome-button {
+  display: inline-flex;
+  height: 36px;
+  padding: 11px 30px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: var(--brand-yellow, #f7b348);
+  color: var(--brand-white, #fff);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 8px;
+  border: none;
+  outline: none;
+}
+
+.welcome-5-min {
+  color: #999;
+  font-family: Work Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0px;
+}
